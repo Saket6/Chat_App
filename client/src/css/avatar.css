@@ -1,0 +1,47 @@
+.container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set a height for the container to center vertically in the viewport */
+    flex-wrap: wrap; /* Allow avatars to wrap to the next row if necessary */
+    flex-direction: column;
+  }
+  
+  .avatars {
+    margin: 10px; /* Add margin around individual avatars for spacing */
+  }
+  
+  .img {
+    width: 100px; /* Set the width of the avatar images */
+    height: 100px; /* Set the height of the avatar images */
+    border-radius: 50%; /* Make the avatars circular */
+  }
+  .img:hover
+  {
+    border: solid 5px rgba(255, 214, 64, 0.907);
+    transition: 0.3s;
+  }
+  .selected{
+    border: solid 5px rgba(255, 214, 64, 0.907);
+}
+.submit
+{
+    margin-top: 30px;
+    border-radius: 100px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(255, 200, 0);
+    font-size: large;
+    font-weight: bold;
+
+}
+.submit:hover
+{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color:  rgba(255, 225, 117, 0.911);
+}
+.container h1{
+    margin-bottom: 30px;
+    color: rgb(255, 200, 0);
+}
